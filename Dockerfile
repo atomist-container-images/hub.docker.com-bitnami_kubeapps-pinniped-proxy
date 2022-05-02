@@ -1,12 +1,21 @@
-# Tags: latest, 2.4.5-debian-10-r1, 2.4.5, 2-debian-10, 2
+# Tags: latest, 2.4.5-debian-10-r4, 2.4.5, 2-debian-10, 2
 FROM bitnami/kubeapps-pinniped-proxy:latest
-FROM bitnami/kubeapps-pinniped-proxy:2.4.5-debian-10-r1
+FROM bitnami/kubeapps-pinniped-proxy:2.4.5-debian-10-r4
 FROM bitnami/kubeapps-pinniped-proxy:2.4.5
 FROM bitnami/kubeapps-pinniped-proxy:2-debian-10
 FROM bitnami/kubeapps-pinniped-proxy:2
 
 # Tags: _
 FROM bitnami/kubeapps-pinniped-proxy:_
+
+# Tags: 2.4.5-debian-10-r3
+FROM bitnami/kubeapps-pinniped-proxy:2.4.5-debian-10-r3
+
+# Tags: 2.4.5-debian-10-r2
+FROM bitnami/kubeapps-pinniped-proxy:2.4.5-debian-10-r2
+
+# Tags: 2.4.5-debian-10-r1
+FROM bitnami/kubeapps-pinniped-proxy:2.4.5-debian-10-r1
 
 # Tags: 2.4.5-debian-10-r0
 FROM bitnami/kubeapps-pinniped-proxy:2.4.5-debian-10-r0
@@ -89,19 +98,3 @@ FROM bitnami/kubeapps-pinniped-proxy:2.4.4-debian-10-r3
 
 # Tags: 2.4.4-debian-10-r2
 FROM bitnami/kubeapps-pinniped-proxy:2.4.4-debian-10-r2
-
-# Tags: 2.4.4-debian-10-r1
-FROM bitnami/kubeapps-pinniped-proxy:2.4.4-debian-10-r1
-
-# Tags: 2.4.4-debian-10-r0
-FROM bitnami/kubeapps-pinniped-proxy:2.4.4-debian-10-r0
-
-# Tags: 2.4.3-debian-10-r47, 2.4.3
-FROM bitnami/kubeapps-pinniped-proxy:2.4.3-debian-10-r47
-FROM bitnami/kubeapps-pinniped-proxy:2.4.3
-
-# Tags: 2.4.3-debian-10-r46
-FROM bitnami/kubeapps-pinniped-proxy:2.4.3-debian-10-r46
-
-# Tags: 2.4.3-debian-10-r45
-FROM bitnami/kubeapps-pinniped-proxy:2.4.3-debian-10-r45
